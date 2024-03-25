@@ -15,7 +15,8 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write \"*.{js,ts,jsx,tsx,md,mdx}\"",
-    "check": "prettier --check \"*.{js,ts,jsx,tsx,md,mdx}\""
+    "check": "prettier --check \"*.{js,ts,jsx,tsx,md,mdx}\"",
+    "postinstall": "lefthook install"
   },
   "dependencies": {
     "next": "14.1.4",
@@ -31,6 +32,7 @@
     "@types/react-dom": "^18.2.22",
     "eslint": "^8.57.0",
     "eslint-config-next": "14.1.4",
+    "lefthook": "^1.6.7",
     "prettier": "^3.2.5",
     "typescript": "^5.4.3"
   }
