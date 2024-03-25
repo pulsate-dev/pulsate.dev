@@ -1,0 +1,37 @@
+{
+  "name": "pulsate.dev",
+  "version": "0.1.0",
+  "description": "Pulsate Project Official Site, Documentation and API Reference.",
+  "packageManager": "pnpm@8.15.5",
+  "private": true,
+  "author": {
+    "name": "pulsate-dev",
+    "email": "info@pulsate.dev",
+    "url": "https://pulsate.dev"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write \"*.{js,ts,jsx,tsx,md,mdx}\"",
+    "check": "prettier --check \"*.{js,ts,jsx,tsx,md,mdx}\""
+  },
+  "dependencies": {
+    "next": "14.1.4",
+    "nextra": "^2.13.4",
+    "nextra-theme-docs": "^2.13.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "@types/node": "^20.11.30",
+    "@types/react": "^18.2.70",
+    "@types/react-dom": "^18.2.22",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.1.4",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.3"
+  }
+}
