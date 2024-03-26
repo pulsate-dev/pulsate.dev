@@ -1,5 +1,8 @@
 # Pulsate Docs (pulsate.dev) - Contributing Guide
 
+> [!WARNING]
+> This page is currently being edited.
+
 - [Development Environment](#development-environment)
   - [Install the package](#install-the-package)
 - [Adding Documents](#adding-documents)

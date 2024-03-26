@@ -23,4 +23,4 @@ The official homepage, documentation, and API reference are collected in "pulsat
 
 ## Contributing
 
-If you would like to contribute to "pulsate.dev", please check [contributing guide]().
+If you would like to contribute to "pulsate.dev", please check [contributing guide](./CONTRIBUTING.md).
