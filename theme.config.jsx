@@ -13,6 +13,10 @@ const themeConfig = {
   ),
   docsRepositoryBase: `${repositoryURL}/edit/main/packages/docs/`,
   primaryHue: 193,
+  i18n: [
+    { locale: 'ja', text: '日本語' },
+    { locale: 'en', text: 'English' }
+  ],
   project: {
     link: repositoryURL
   },
