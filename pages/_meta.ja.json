@@ -1,0 +1,14 @@
+{
+  "index": {
+    "title": "トップページ",
+    "type": "page",
+    "display": "hidden",
+    "theme": {
+      "layout": "raw"
+    }
+  },
+  "community": {
+    "title": "コミュニティ",
+    "type": "page"
+  }
+}
