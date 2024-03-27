@@ -10,5 +10,10 @@
   "community": {
     "title": "コミュニティ",
     "type": "page"
+  },
+  "404": {
+    "title": "404",
+    "type": "page",
+    "display": "hidden"
   }
 }
