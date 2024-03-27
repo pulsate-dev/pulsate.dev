@@ -3,24 +3,40 @@ import { useRouter } from 'next/router';
 
 const repositoryURL = 'https://github.com/pulsate-dev/pulsate.dev';
 
-/** @type {import('nextra-theme-docs').DocsThemeConfig} */
+const banner = {
+  key: '0.1-release',
+  text: (
+    <a href="https://github.com/pulsate-dev/pulsate" target="_blank">
+      💙 Pulsate 0.1 is out! Read more →
+    </a>
+  )
+};
+
 const themeConfig = {
-  logo: (
-    <>
-      <Image src={'/logo.png'} alt={"Pulsate's logo"} width={50} height={50} />
-      <span style={{ marginLeft: '.4em', fontWeight: 500 }}>Pulsate</span>
-    </>
-  ),
-  docsRepositoryBase: `${repositoryURL}/edit/main/packages/docs/`,
-  primaryHue: 193,
-  project: {
-    link: repositoryURL
+  docsRepositoryBase: `${repositoryURL}/edit/main/`,
+  darkMode: true,
+  banner,
+  chat: {
+    link: 'https://link.pulsate.dev/discord'
   },
-  search: {
-    placeholder: 'Search pulsate.dev...'
-  },
+  i18n: [
+    { locale: 'ja', text: '日本語' },
+    { locale: 'en', text: 'English' }
+  ],
   editLink: {
     text: 'Edit this page'
+  },
+  project: {
+    link: 'https://github.com/pulsate-dev/pulsate'
+  },
+  footer: {
+    text: <span>© {new Date().getFullYear()} Pulsate</span>
+  },
+  toc: {
+    backToTop: true
+  },
+  search: {
+    placeholder: 'Search pulsate.dev'
   },
   feedback: {
     content: 'Create a Issue',
@@ -28,11 +44,12 @@ const themeConfig = {
       return `${repositoryURL}/issues/new`;
     }
   },
-  footer: {
-    text: (
-      <span>© {new Date().getFullYear()} Pulsate. All rights reserved.</span>
-    )
-  },
+  logo: (
+    <>
+      <Image src={'/logo.png'} alt={"Pulsate's logo"} width={40} height={40} />
+      <span style={{ marginLeft: '.3em', fontWeight: 500 }}>Pulsate</span>
+    </>
+  ),
   head: (
     <>
       <link
@@ -59,7 +76,7 @@ const themeConfig = {
         color="#5bbad5"
       />
       <meta name="msapplication-TileColor" content="#da532c" />
-      <meta name="theme-color" content="#ffffff" />
+      <meta name="theme-color" content="#93B9D7" />
     </>
   ),
   useNextSeoProps() {
@@ -67,6 +84,10 @@ const themeConfig = {
     if (asPath !== '/') {
       return {
         titleTemplate: '%s | Pulsate Docs'
+      };
+    } else {
+      return {
+        titleTemplate: 'Pulsate Docs'
       };
     }
   }
