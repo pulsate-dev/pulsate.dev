@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { useRouter } from 'next/router';
+import { DocsThemeConfig } from 'nextra-theme-docs';
 
 const repositoryURL = 'https://github.com/pulsate-dev/pulsate.dev';
 
@@ -12,7 +13,7 @@ const banner = {
   )
 };
 
-const themeConfig = {
+const themeConfig: DocsThemeConfig = {
   docsRepositoryBase: `${repositoryURL}/edit/main/`,
   darkMode: true,
   banner,
