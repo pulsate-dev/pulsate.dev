@@ -2,7 +2,7 @@
   "name": "pulsate.dev",
   "version": "0.1.0",
   "description": "Pulsate Project Official Site, Documentation and API Reference.",
-  "packageManager": "pnpm@8.15.7",
+  "packageManager": "pnpm@9.0.6",
   "license": "MIT",
   "private": true,
   "author": {
