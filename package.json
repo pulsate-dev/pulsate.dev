@@ -2,7 +2,7 @@
   "name": "pulsate.dev",
   "version": "0.1.0",
   "description": "Pulsate Project Official Site, Documentation and API Reference.",
-  "packageManager": "pnpm@8.15.7",
+  "packageManager": "pnpm@9.0.6",
   "private": true,
   "author": {
     "name": "pulsate-dev",
@@ -34,7 +34,7 @@
     "@types/react": "^18.2.70",
     "@types/react-dom": "^18.2.22",
     "@typescript-eslint/eslint-plugin": "^7.3.1",
-    "eslint": "^8.57.0",
+    "eslint": "^9.0.0",
     "eslint-config-next": "14.2.3",
     "lefthook": "^1.6.7",
     "prettier": "^3.2.5",
