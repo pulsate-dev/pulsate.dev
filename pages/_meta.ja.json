@@ -7,6 +7,12 @@
       "layout": "raw"
     }
   },
+  "api-reference": {
+    "type": "page",
+    "title": "API↗",
+    "href": "https://api.pulsate.dev/reference",
+    "newWindow": true
+  },
   "community": {
     "title": "コミュニティ",
     "type": "page"
