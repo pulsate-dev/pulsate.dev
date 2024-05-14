@@ -1,5 +1,5 @@
 {
-  "name": "pulsate.dev",
+  "name": "docs",
   "version": "0.1.0",
   "description": "Pulsate Project Official Site, Documentation and API Reference.",
   "packageManager": "pnpm@9.1.0",
@@ -8,7 +8,7 @@
   "author": {
     "name": "pulsate-dev",
     "email": "info@pulsate.dev",
-    "url": "https://pulsate.dev"
+    "url": "https://docs.pulsate.dev"
   },
   "scripts": {
     "dev": "next dev",

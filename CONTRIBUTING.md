@@ -1,4 +1,4 @@
-# Pulsate Docs (pulsate.dev) - Contributing Guide
+# Pulsate Documentation - Contributing Guide
 
 > [!WARNING]
 > This page is currently being edited.
