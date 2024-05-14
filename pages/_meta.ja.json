@@ -1,11 +1,20 @@
 {
   "index": {
-    "title": "トップページ",
+    "title": "Home",
     "type": "page",
     "display": "hidden",
     "theme": {
-      "layout": "raw"
+      "timestamp": false,
+      "typesetting": "article"
     }
+  },
+  "guide": {
+    "title": "ガイド",
+    "type": "page"
+  },
+  "docs": {
+    "title": "ドキュメント",
+    "type": "page"
   },
   "community": {
     "title": "コミュニティ",
