@@ -5,10 +5,10 @@ import { DocsThemeConfig } from 'nextra-theme-docs';
 const repositoryURL = 'https://github.com/pulsate-dev/pulsate.dev';
 
 const banner = {
-  key: '0.1-release',
+  key: 'before-publication',
   text: (
-    <a href="https://github.com/pulsate-dev/pulsate" target="_blank">
-      💙 Pulsate 0.1 is out! Read more →
+    <a href="/community/project/about" style={{ color: 'yellow' }}>
+      公式サイトは準備中です。プロジェクトの概要についてはこちらをクリック ↗
     </a>
   )
 };
