@@ -7,6 +7,14 @@
       "layout": "raw"
     }
   },
+  "guide": {
+    "title": "ガイド",
+    "type": "page"
+  },
+  "docs": {
+    "title": "ドキュメント",
+    "type": "page"
+  },
   "community": {
     "title": "コミュニティ",
     "type": "page"

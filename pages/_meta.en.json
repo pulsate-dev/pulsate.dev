@@ -7,6 +7,14 @@
       "layout": "raw"
     }
   },
+  "guide": {
+    "title": "Guide",
+    "type": "page"
+  },
+  "docs": {
+    "title": "Documentation",
+    "type": "page"
+  },
   "community": {
     "title": "Community",
     "type": "page"
