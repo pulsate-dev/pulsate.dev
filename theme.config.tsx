@@ -4,12 +4,21 @@ import { DocsThemeConfig } from 'nextra-theme-docs';
 
 const repositoryURL = 'https://github.com/pulsate-dev/pulsate.dev';
 
+/**
 const banner = {
   key: 'before-publication',
   text: (
     <a href="/community/project/about" style={{ color: 'yellow' }}>
       公式サイトは準備中です。プロジェクトの概要についてはこちらをクリック ↗
     </a>
+  )
+};
+*/
+
+const banner = {
+  key: 'roadmap-v0',
+  text: (
+    <a href="/roadmap">Pulsate v0 -Antenna- のロードマップを公開しました →</a>
   )
 };
 
