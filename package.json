@@ -15,8 +15,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write \"./**/**/*.{js,ts,jsx,tsx,md,mdx}\"",
-    "check": "prettier --check \"./**/**/*.{js,ts,jsx,tsx,md,mdx}\"",
+    "format": "prettier --write \"./**/**/*.{js,ts,jsx,tsx}\"",
+    "check": "prettier --check \"./**/**/*.{js,ts,jsx,tsx}\"",
     "postinstall": "lefthook install"
   },
   "engines": {

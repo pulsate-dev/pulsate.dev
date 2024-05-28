@@ -8,6 +8,14 @@
       "typesetting": "article"
     }
   },
+  "roadmap": {
+    "title": "Roadmap (v0)",
+    "type": "page",
+    "display": "hidden",
+    "theme": {
+      "typesetting": "article"
+    }
+  },
   "guide": {
     "title": "Guide",
     "type": "page"
