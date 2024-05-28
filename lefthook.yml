@@ -1,8 +1,8 @@
 pre-commit:
   commands:
     lint:
-      glob: "*.{ts,tsx,mdx}"
+      glob: "*.{js,ts,jsx,tsx,mdx}"
       run: bun run lint
     check:
-      glob: "*.{ts,tsx,mdx}"
+      glob: "*.{js,ts,jsx,tsx}"
       run: bun run check
