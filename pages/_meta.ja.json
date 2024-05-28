@@ -17,11 +17,13 @@
   },
   "guide": {
     "title": "ガイド",
-    "type": "page"
+    "type": "page",
+    "display": "hidden"
   },
   "docs": {
     "title": "ドキュメント",
-    "type": "page"
+    "type": "page",
+    "display": "hidden"
   },
   "community": {
     "title": "コミュニティ",

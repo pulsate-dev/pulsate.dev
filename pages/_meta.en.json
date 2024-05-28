@@ -18,11 +18,13 @@
   },
   "guide": {
     "title": "Guide",
-    "type": "page"
+    "type": "page",
+    "display": "hidden"
   },
   "docs": {
     "title": "Documentation",
-    "type": "page"
+    "type": "page",
+    "display": "hidden"
   },
   "community": {
     "title": "Community",
