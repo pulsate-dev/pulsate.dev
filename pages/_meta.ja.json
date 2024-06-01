@@ -9,29 +9,39 @@
     }
   },
   "roadmap": {
-    "title": "ロードマップ (v0)",
+    "title": "ロードマップ",
     "type": "page",
     "theme": {
       "typesetting": "article"
     }
   },
-  "guide": {
-    "title": "ガイド",
-    "type": "page",
-    "display": "hidden"
-  },
-  "docs": {
-    "title": "ドキュメント",
-    "type": "page",
-    "display": "hidden"
-  },
   "community": {
     "title": "コミュニティ",
-    "type": "page"
-  },
-  "404": {
-    "title": "404",
-    "type": "page",
-    "display": "hidden"
+    "type": "menu",
+    "items": {
+      "community-about-pulsate": {
+        "title": "Pulsate Project について",
+        "href": "/community/about"
+      },
+      "community-team": {
+        "title": "チーム",
+        "href": "/community/team"
+      },
+      "discord_link": {
+        "title": "Discord ↗",
+        "href": "https://link.pulsate.dev/discord",
+        "newWindow": true
+      },
+      "github_link": {
+        "title": "GitHub ↗",
+        "href": "https://link.pulsate.dev/github",
+        "newWindow": true
+      },
+      "youtube_link": {
+        "title": "YouTube ↗",
+        "href": "https://link.pulsate.dev/youtube",
+        "newWindow": true
+      }
+    }
   }
 }

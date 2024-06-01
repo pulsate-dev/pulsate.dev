@@ -1,4 +1,16 @@
 {
-  "project": "Project",
-  "discord": "Discord"
+  "about": {
+    "title": "About Pulsate",
+    "type": "page",
+    "theme": {
+      "typesetting": "article"
+    }
+  },
+  "team": {
+    "title": "Team",
+    "type": "page",
+    "theme": {
+      "typesetting": "article"
+    }
+  }
 }
