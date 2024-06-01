@@ -1,38 +1,46 @@
 {
   "index": {
     "title": "Home",
-    "type": "page",
-    "display": "hidden",
     "theme": {
-      "timestamp": false,
-      "typesetting": "article"
+      "layout": "raw"
     }
   },
   "roadmap": {
-    "title": "Roadmap (v0)",
-    "type": "page",
-    "display": "hidden",
+    "title": "Roadmap",
     "theme": {
-      "typesetting": "article"
+      "toc": true,
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "pagination": false
     }
-  },
-  "guide": {
-    "title": "Guide",
-    "type": "page",
-    "display": "hidden"
-  },
-  "docs": {
-    "title": "Documentation",
-    "type": "page",
-    "display": "hidden"
   },
   "community": {
     "title": "Community",
-    "type": "page"
-  },
-  "404": {
-    "title": "404",
-    "type": "page",
-    "display": "hidden"
+    "type": "menu",
+    "items": {
+      "community-about-pulsate": {
+        "title": "About Pulsate",
+        "href": "/community/about"
+      },
+      "community-team": {
+        "title": "Team",
+        "href": "/community/team"
+      },
+      "discord_link": {
+        "title": "Discord ↗",
+        "href": "https://link.pulsate.dev/discord",
+        "new_window": true
+      },
+      "github_link": {
+        "title": "GitHub ↗",
+        "href": "https://link.pulsate.dev/github",
+        "new_window": true
+      },
+      "youtube_link": {
+        "title": "YouTube ↗",
+        "href": "https://link.pulsate.dev/youtube"
+      }
+    }
   }
 }
