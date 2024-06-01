@@ -1,8 +1,11 @@
 {
   "index": {
     "title": "Home",
+    "type": "page",
+    "display": "hidden",
     "theme": {
-      "layout": "raw"
+      "timestamp": false,
+      "typesetting": "article"
     }
   },
   "roadmap": {
@@ -27,16 +30,17 @@
       "discord_link": {
         "title": "Discord ↗",
         "href": "https://link.pulsate.dev/discord",
-        "new_window": true
+        "newWindow": true
       },
       "github_link": {
         "title": "GitHub ↗",
         "href": "https://link.pulsate.dev/github",
-        "new_window": true
+        "newWindow": true
       },
       "youtube_link": {
         "title": "YouTube ↗",
-        "href": "https://link.pulsate.dev/youtube"
+        "href": "https://link.pulsate.dev/youtube",
+        "newWindow": true
       }
     }
   }
