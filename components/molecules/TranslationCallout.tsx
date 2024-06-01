@@ -1,3 +1,4 @@
+import { Link } from '@kuma-ui/core';
 import { Callout } from 'nextra/components';
 import React from 'react';
 
@@ -13,22 +14,30 @@ export const TranslationCallout = ({ lang }: TranslationCalloutProps) => {
   switch (lang) {
     case 'ja':
       return (
-        <Callout type="warning" emoji="🌍">
+        <Callout type="warning">
           このページはまだ翻訳されていません。もしあなたがこの言語に精通している場合は
-          <a href={issueUrl + 'ja'} style={{ textDecoration: 'underline' }}>
+          <Link
+            href={issueUrl + 'ja'}
+            textDecoration="underline"
+            color="#006CE6"
+          >
             翻訳に参加してください
-          </a>
+          </Link>
           。
         </Callout>
       );
     case 'en':
       return (
-        <Callout type="warning" emoji="🌍">
+        <Callout type="warning">
           This page has not yet been translated. If you are familiar with this
           language,{' '}
-          <a href={issueUrl + 'en'} style={{ textDecoration: 'underline' }}>
+          <Link
+            href={issueUrl + 'ja'}
+            textDecoration="underline"
+            color="#006CE6"
+          >
             please participate in the translation
-          </a>
+          </Link>
           .
         </Callout>
       );
