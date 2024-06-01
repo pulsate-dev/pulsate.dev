@@ -93,11 +93,11 @@ const themeConfig: DocsThemeConfig = {
     const { asPath } = useRouter();
     if (asPath !== '/') {
       return {
-        titleTemplate: '%s | Pulsate Docs'
+        titleTemplate: '%s | Pulsate'
       };
     } else {
       return {
-        titleTemplate: 'Pulsate Docs'
+        titleTemplate: 'Pulsate'
       };
     }
   }

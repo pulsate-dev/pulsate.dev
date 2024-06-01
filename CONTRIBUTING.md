@@ -14,7 +14,7 @@
 Pulsate Docs assumes the following development environment.
 
 - Node.js v20.x
-- Pnpm (pnpm) v8.x
+- Pnpm (pnpm) v9.x
 
 ### Install the package
 
@@ -58,4 +58,14 @@ Next.js i18n is used for multilingual support. The following languages are suppo
 
 Translation is basically editing the file `*.en.mdx`. You may use Deepl or other tools to translate the text, but please use it only as an aid. If you use Deepl to read all pages, it may destroy the Markdown notation.
 
-If you cannot translate it in time, import the following Callout, place it in MDX, and commit.
+If you cannot translate it in time, import the following component, place it in MDX, and commit.
+
+```tsx
+import { TranslationCallout } from "../components/molecules/TranslationCallout";
+
+<TranslationCallout lang={'en'}/>
+```
+
+- The following values are available for `lang`.
+  - `en`: English
+  - `ja`: Japanese

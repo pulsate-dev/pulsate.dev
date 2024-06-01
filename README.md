@@ -1,15 +1,15 @@
 <p align="center">
   <h1 align="center">
-    <b>Pulsate Documentation</b>
+    <b>pulsate.dev</b>
   </h1>
   <p align="center">
-    Documentation for Pulsate.
+    🧭 Pulsate Project Official Site, Documentation and API Reference. 🧭
     <br />
   </p>
 </p>
 
 <p align="center">
-  <a href="https://github.com/pulsate-dev/docs/actions/workflows/build.yaml">
+  <a href="https://github.com/pulsate-dev/pulsate.dev/actions/workflows/build.yaml">
     <img src="https://github.com/pulsate-dev/pulsate.dev/actions/workflows/build.yaml/badge.svg">
   </a>
   <a href="https://www.apache.org/licenses/">
@@ -21,6 +21,8 @@
 </p>
 
 Let's imagine. The most comprehensive document on Pulsate in the world...
+
+The official homepage, documentation, and API reference are collected in "pulsate.dev".
 
 ---
 
