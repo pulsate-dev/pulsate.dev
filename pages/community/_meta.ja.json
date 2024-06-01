@@ -1,4 +1,16 @@
 {
-  "project": "プロジェクト",
-  "discord": "Discord"
+  "about": {
+    "title": "Pulsate Project について",
+    "type": "page",
+    "theme": {
+      "typesetting": "article"
+    }
+  },
+  "team": {
+    "title": "チーム",
+    "type": "page",
+    "theme": {
+      "typesetting": "article"
+    }
+  }
 }
