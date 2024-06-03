@@ -1,11 +1,8 @@
 {
   "index": {
     "title": "Home",
-    "type": "page",
-    "display": "hidden",
     "theme": {
-      "timestamp": false,
-      "typesetting": "article"
+      "layout": "raw"
     }
   },
   "roadmap": {
