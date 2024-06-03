@@ -35,7 +35,7 @@ importers:
         version: 4.3.0(prettier@3.2.5)
       '@types/node':
         specifier: ^20.11.30
-        version: 20.12.13
+        version: 20.12.12
       '@types/react':
         specifier: ^18.2.70
         version: 18.3.3
@@ -53,7 +53,7 @@ importers:
         version: 14.2.3(eslint@8.57.0)(typescript@5.4.5)
       lefthook:
         specifier: ^1.6.7
-        version: 1.6.14
+        version: 1.6.13
       prettier:
         specifier: ^3.2.5
         version: 3.2.5
@@ -1249,14 +1249,8 @@ packages:
   '@types/ms@0.7.34':
     resolution: {integrity: sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==}
 
-  '@types/node@20.12.13':
-    resolution: {integrity: sha512-gBGeanV41c1L171rR7wjbMiEpEI/l5XFQdLLfhr/REwpgDy/4U8y89+i8kRiLzDyZdOkXh+cRaTetUnCYutoXA==}
-
-  '@types/node@20.13.0':
-    resolution: {integrity: sha512-FM6AOb3khNkNIXPnHFDYaHerSv8uN22C91z098AnGccVu+Pcdhi+pNUFDi0iLmPIsVE0JBD0KVS7mzUYt4nRzQ==}
-
-  '@types/node@20.13.0':
-    resolution: {integrity: sha512-FM6AOb3khNkNIXPnHFDYaHerSv8uN22C91z098AnGccVu+Pcdhi+pNUFDi0iLmPIsVE0JBD0KVS7mzUYt4nRzQ==}
+  '@types/node@20.12.12':
+    resolution: {integrity: sha512-eWLDGF/FOSPtAvEqeRAQ4C8LSA7M1I7i0ky1I8U7kD1J5ITyW3AsRhQrKVoWf5pFKZ2kILsEGJhsI9r93PYnOw==}
 
   '@types/prop-types@15.7.12':
     resolution: {integrity: sha512-5zvhXYtRNRluoE/jAp4GVsSduVUzNWKkOZrCDBWYtE7biZywwdC2AcEzg+cSMLFRfVgeAFqpfNabiPjxFddV1Q==}
@@ -1963,10 +1957,6 @@ packages:
 
   enhanced-resolve@5.16.0:
     resolution: {integrity: sha512-O+QWCviPNSSLAD9Ucn8Awv+poAkqn3T1XY5/N7kR7rQO9yfSGWkYZDwpJ+iKF7B8rxaQKWngSqACpgzeapSyoA==}
-    engines: {node: '>=10.13.0'}
-
-  enhanced-resolve@5.16.1:
-    resolution: {integrity: sha512-4U5pNsuDl0EhuZpq46M5xPslstkviJuhrdobaRDBk2Jy2KO37FDAJl4lb2KlNabxT0m4MTK2UHNrsAcphE8nyw==}
     engines: {node: '>=10.13.0'}
 
   entities@4.5.0:
@@ -2691,48 +2681,48 @@ packages:
   layout-base@1.0.2:
     resolution: {integrity: sha512-8h2oVEZNktL4BH2JCOI90iD1yXwL6iNW7KcCKT2QZgQJR2vbqDsldCTPRU9NifTCqHZci57XvQQ15YTu+sTYPg==}
 
-  lefthook-darwin-arm64@1.6.14:
-    resolution: {integrity: sha512-CpeLfErvVo7zv4cFMNFjB36OHXytj9H+DyOG1g62LbApMWIC7HOPMQZ0x0QzNIqeRuvpiMst4XOkspQTJ8QYiw==}
+  lefthook-darwin-arm64@1.6.13:
+    resolution: {integrity: sha512-cRmqST0zZQNHl0VwBrlHLDaU1qsiTBLMiDp6bttZzUkfqwH9Pqhj2muxnoAnNXxzhlQsriCIuc44BxtbzL+GTw==}
     cpu: [arm64]
     os: [darwin]
 
-  lefthook-darwin-x64@1.6.14:
-    resolution: {integrity: sha512-IUjs7IYuNuKw2pbZP9dLYk9T19qnYKCIBLN58hXkWWFbViiJa+n4vUG4fgw6oBceK6enkvJpa/ma02yqg5Pxsw==}
+  lefthook-darwin-x64@1.6.13:
+    resolution: {integrity: sha512-GYGG71zeUSUua71Idq5/poW8BcR8kNUMzfyZ6ZGSvGxzdnmJRvSHk/bxrvcvfScfqCXKASUM0yRcLgQjJRs5Dg==}
     cpu: [x64]
     os: [darwin]
 
-  lefthook-freebsd-arm64@1.6.14:
-    resolution: {integrity: sha512-FWg2HR0X9NQ0vVTU2iO36llKqyFyB60CFm/4GIUVkAWs7rhmOS/FG7C9pcl2jTDrLyMYMQpEvwwMQBWe6qCfcw==}
+  lefthook-freebsd-arm64@1.6.13:
+    resolution: {integrity: sha512-VjK6rizPmb79IuyCMZtUKIXRZejs51ItuVSdNGkJg3YFIYzhpINTrQ/9d5/hTJ/QaOtPk72WZsayh5nQYCwJRw==}
     cpu: [arm64]
     os: [freebsd]
 
-  lefthook-freebsd-x64@1.6.14:
-    resolution: {integrity: sha512-qe/cgGUxMld1XcPhOBtthL/yVfP9KglBqFLXLkkpsg78wVo6nKCADEKWW+3+ofUZSnfpPVbx1435kWtp3NmfdA==}
+  lefthook-freebsd-x64@1.6.13:
+    resolution: {integrity: sha512-pz3MxCNIDB1i4LDxK+z4AnRS4ZH9YU6ryDm5RbHQ24sDLPqVdDWs90IAtexp9xvevZwPEtU5e/qCHNuqoYALmQ==}
     cpu: [x64]
     os: [freebsd]
 
-  lefthook-linux-arm64@1.6.14:
-    resolution: {integrity: sha512-Iw1Av89sxkvxmi5WrHZkNB1lppzFlsRT7CdQ14ckN9xM6kTLnJLKoxKO/ez3WooSp9Yv3NROGAfUzMLCgok3cQ==}
+  lefthook-linux-arm64@1.6.13:
+    resolution: {integrity: sha512-IvsXpPb1U2nWVByQczyK48pnUAeqlt8Tx73YM8dUU8YBVSN1zVt8xqMSNqnk46zhggCPHEfc3aqL5UInnveJMA==}
     cpu: [arm64]
     os: [linux]
 
-  lefthook-linux-x64@1.6.14:
-    resolution: {integrity: sha512-3taGa/Ge7SZMuG82Abu7YuYSWlbJBIT2ZIVA+YVA1lwI7kZsg9WQPAMvdob125EsS20Z6o0EfYAJPuALxD5Yww==}
+  lefthook-linux-x64@1.6.13:
+    resolution: {integrity: sha512-Ia8Rr1P7rA+E70ABD80Hm0z1kQK7F+qgoVIpeg+MLwqMHNMWLR0lG+v7iF6W+CeTqgz+80r6E1OjT3rh4O7Feg==}
     cpu: [x64]
     os: [linux]
 
-  lefthook-windows-arm64@1.6.14:
-    resolution: {integrity: sha512-XRwJ9wLcMZiXucsQhbuj0yzvX34fVQrYg4gGOVWeb+quO8yYURRInzoYiXGH0iAdQJOUs0WSR5gdZ6lImFgkHg==}
+  lefthook-windows-arm64@1.6.13:
+    resolution: {integrity: sha512-z1dcEsm7r8OIec2f8tBL02aLZHNWaxI4j+OIPiWKN7AIk4or0uSZTxPCNFnVprfc4tOuDUZlJJJovjrQdRsvNQ==}
     cpu: [arm64]
     os: [win32]
 
-  lefthook-windows-x64@1.6.14:
-    resolution: {integrity: sha512-qhRBdgk6GgvwGKKojSUieeGgnOTbFyLwj6RyMa5vTYoO10h0e8CE8LWpnM2niyKmB1jTL8Nu128IH50Vp1UT9w==}
+  lefthook-windows-x64@1.6.13:
+    resolution: {integrity: sha512-DRgAWkNVyu/JgjXD5Hp8dy/iEep4K9YNUgUSvBlV17DfujUVyrfn2L6RccIdVI8VgIEPCvT+oevmG0ViyfPy3Q==}
     cpu: [x64]
     os: [win32]
 
-  lefthook@1.6.14:
-    resolution: {integrity: sha512-IfnzdoZLRnQPm6OgwgH0JlwRK3Ojyn0dXL+JHqewbhDuGGIXqLrHAFK/29KvQK2knsGF4dzlajBvwjwPVY1aVA==}
+  lefthook@1.6.13:
+    resolution: {integrity: sha512-2yaLmiEyQUPpSmNwj6Ak1nYjaprHI+a8gYRu2QH+kRkaig+gdpayzIOtL+28phzxsw0aJNTeIeDMnVautKx5eQ==}
     hasBin: true
 
   levn@0.4.1:
@@ -5241,15 +5231,7 @@ snapshots:
 
   '@types/ms@0.7.34': {}
 
-  '@types/node@20.12.13':
-    dependencies:
-      undici-types: 5.26.5
-
-  '@types/node@20.13.0':
-    dependencies:
-      undici-types: 5.26.5
-
-  '@types/node@20.13.0':
+  '@types/node@20.12.12':
     dependencies:
       undici-types: 5.26.5
 
@@ -6057,11 +6039,6 @@ snapshots:
       graceful-fs: 4.2.11
       tapable: 2.2.1
 
-  enhanced-resolve@5.16.1:
-    dependencies:
-      graceful-fs: 4.2.11
-      tapable: 2.2.1
-
   entities@4.5.0: {}
 
   es-abstract@1.23.3:
@@ -6428,7 +6405,7 @@ snapshots:
 
   eval@0.1.8:
     dependencies:
-      '@types/node': 20.12.13
+      '@types/node': 20.12.12
       require-like: 0.1.2
 
   events@3.3.0: {}
@@ -6935,7 +6912,7 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 20.13.0
+      '@types/node': 20.12.12
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
@@ -7001,40 +6978,40 @@ snapshots:
 
   layout-base@1.0.2: {}
 
-  lefthook-darwin-arm64@1.6.14:
+  lefthook-darwin-arm64@1.6.13:
     optional: true
 
-  lefthook-darwin-x64@1.6.14:
+  lefthook-darwin-x64@1.6.13:
     optional: true
 
-  lefthook-freebsd-arm64@1.6.14:
+  lefthook-freebsd-arm64@1.6.13:
     optional: true
 
-  lefthook-freebsd-x64@1.6.14:
+  lefthook-freebsd-x64@1.6.13:
     optional: true
 
-  lefthook-linux-arm64@1.6.14:
+  lefthook-linux-arm64@1.6.13:
     optional: true
 
-  lefthook-linux-x64@1.6.14:
+  lefthook-linux-x64@1.6.13:
     optional: true
 
-  lefthook-windows-arm64@1.6.14:
+  lefthook-windows-arm64@1.6.13:
     optional: true
 
-  lefthook-windows-x64@1.6.14:
+  lefthook-windows-x64@1.6.13:
     optional: true
 
-  lefthook@1.6.14:
+  lefthook@1.6.13:
     optionalDependencies:
-      lefthook-darwin-arm64: 1.6.14
-      lefthook-darwin-x64: 1.6.14
-      lefthook-freebsd-arm64: 1.6.14
-      lefthook-freebsd-x64: 1.6.14
-      lefthook-linux-arm64: 1.6.14
-      lefthook-linux-x64: 1.6.14
-      lefthook-windows-arm64: 1.6.14
-      lefthook-windows-x64: 1.6.14
+      lefthook-darwin-arm64: 1.6.13
+      lefthook-darwin-x64: 1.6.13
+      lefthook-freebsd-arm64: 1.6.13
+      lefthook-freebsd-x64: 1.6.13
+      lefthook-linux-arm64: 1.6.13
+      lefthook-linux-x64: 1.6.13
+      lefthook-windows-arm64: 1.6.13
+      lefthook-windows-x64: 1.6.13
 
   levn@0.4.1:
     dependencies:
@@ -8599,7 +8576,7 @@ snapshots:
       acorn-import-assertions: 1.9.0(acorn@8.11.3)
       browserslist: 4.23.0
       chrome-trace-event: 1.0.4
-      enhanced-resolve: 5.16.1
+      enhanced-resolve: 5.16.0
       es-module-lexer: 1.5.3
       eslint-scope: 5.1.1
       events: 3.3.0
